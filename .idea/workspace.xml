@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee3ccfb0-ac6a-4378-a086-a1fa87474e52" name="Default Changelist" comment="" />
+    <list default="true" id="ee3ccfb0-ac6a-4378-a086-a1fa87474e52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ske40IwmGrJ5iuA8KzmWPQXSOo" />
   <component name="ProjectViewState">
@@ -44,13 +50,34 @@
       <option name="presentableId" value="Default" />
       <updated>1621420820036</updated>
       <workItem from="1621420821085" duration="14375000" />
+      <workItem from="1621435575570" duration="130000" />
     </task>
+    <task id="LOCAL-00001" summary="ff">
+      <created>1621435586505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621435586505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ff" />
+    <option name="LAST_COMMIT_MESSAGE" value="ff" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="905" y="268" key="CommitChangelistDialog2" timestamp="1621435586148">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="905" y="268" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1621435586148" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1621435588234">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1621435588234" />
     <state x="2510" y="68" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621429904869">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>

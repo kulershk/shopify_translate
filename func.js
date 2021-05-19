@@ -1,7 +1,7 @@
 var input_template = `
     <div class="row">
-    
-        <div class="col-6">
+        <div class="col-1">{{num}}</div>
+        <div class="col-5">
             <div class="input-group mb-2 mt-2">
                 <textarea rows="4" disabled data-id="{{id}}"></textarea>
             </div>

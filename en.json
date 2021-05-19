@@ -1,0 +1,585 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Skip to content",
+      "close_modal": "Close (esc)",
+      "close": "Close",
+      "learn_more": "Learn more"
+    },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "404 Page Not Found",
+      "subtext_html": "<p>The page you were looking for does not exist. <\/p><p><a href='{{ url }}'>Continue shopping<\/a><\/p>"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "password_page": {
+      "login_form_heading": "Enter store using password",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "admin_link_html": "Store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
+      "password_link": "Enter using password",
+      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "home_link_title": "Back to the frontpage"
+    },
+    "social": {
+      "share_on_facebook": "Share",
+      "share_on_twitter": "Tweet",
+      "share_on_pinterest": "Pin it",
+      "alt_text": {
+        "share_on_facebook": "Share on Facebook",
+        "share_on_twitter": "Tweet on Twitter",
+        "share_on_pinterest": "Pin on Pinterest"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Enter your email",
+      "newsletter_confirmation": "Thanks for subscribing",
+      "submit": "Subscribe"
+    },
+    "search": {
+      "view_more": "View more",
+      "collections": "Collections:",
+      "pages": "Pages:",
+      "articles": "Articles:",
+      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
+      "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
+      "title": "Search",
+      "placeholder": "Search our store",
+      "submit": "Search",
+      "result_count": {
+        "one": "{{ count }} result",
+        "other": "{{ count }} results"
+      }
+    },
+    "drawers": {
+      "navigation": "Site navigation",
+      "close_menu": "Close menu",
+      "expand_submenu": "Expand submenu",
+      "collapse_submenu": "Collapse submenu"
+    },
+    "currency": {
+      "dropdown_label": "Currency"
+    },
+    "language": {
+      "dropdown_label": "Language"
+    }
+  },
+  "sections": {
+    "map": {
+      "get_directions": "Get directions",
+      "address_error": "Error looking up that address",
+      "address_no_results": "No results for that address",
+      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
+      "auth_error_html": "There was a problem authenticating your Google Maps account. Create and enable the <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript API<\/a> and <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> permissions of your app."
+    }
+  },
+  "blogs": {
+    "article": {
+      "view_all": "View all",
+      "tags": "Tags",
+      "read_more": "Continue reading",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Cart",
+      "remove": "Remove",
+      "note": "Order note",
+      "subtotal": "Subtotal",
+      "discounts": "Discounts",
+      "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
+      "update": "Update cart",
+      "checkout": "Check out",
+      "empty": "Your cart is currently empty.",
+      "continue_browsing_html": "<a href='{{ url }}'>Continue shopping<\/a>",
+      "close_cart": "Close cart",
+      "reduce_quantity": "Reduce item quantity by one",
+      "increase_quantity": "Increase item quantity by one",
+      "terms": "I agree with the terms and conditions",
+      "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions<\/a>",
+      "terms_confirm": "You must agree with the terms and conditions of sales to check out"
+    },
+    "label": {
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Catalog",
+      "all_of_collection": "View all",
+      "view_all_products_html": "View all<br>{{ count }} products",
+      "see_more": "Show more",
+      "see_less": "Show less",
+      "no_matches": "Sorry, there are no products in this collection.",
+      "items_with_count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      }
+    },
+    "sorting": {
+      "title": "Sort"
+    },
+    "filters": {
+      "title_tags": "Filter",
+      "all_tags": "All products",
+      "categories_title": "Categories"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone number",
+      "message": "Message",
+      "send": "Send",
+      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "My account",
+      "details": "Account details",
+      "view_addresses": "View addresses",
+      "return": "Return to account"
+    },
+    "activate_account": {
+      "title": "Activate account",
+      "subtext": "Create your password to activate your account.",
+      "password": "Password",
+      "password_confirm": "Confirm password",
+      "submit": "Activate account",
+      "cancel": "Decline invitation"
+    },
+    "addresses": {
+      "title": "Addresses",
+      "default": "Default",
+      "add_new": "Add address",
+      "edit_address": "Edit address",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "company": "Company",
+      "address1": "Address1",
+      "address2": "Address2",
+      "city": "City",
+      "country": "Country",
+      "province": "Province",
+      "zip": "Postal\/Zip code",
+      "phone": "Phone",
+      "set_default": "Set as default address",
+      "add": "Add address",
+      "update": "Update address",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you wish to delete this address?"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot password?",
+      "sign_in": "Sign In",
+      "cancel": "Return to Store",
+      "guest_title": "Continue as a guest",
+      "guest_continue": "Continue"
+    },
+    "orders": {
+      "title": "Order History",
+      "order_number": "Order",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "total": "Total",
+      "none": "You haven't placed any orders yet."
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date_html": "Placed on {{ date }}",
+      "cancelled_html": "Order cancelled on {{ date }}",
+      "cancelled_reason": "Reason: {{ reason }}",
+      "billing_address": "Billing address",
+      "payment_status": "Payment status",
+      "shipping_address": "Shipping address",
+      "fulfillment_status": "Fulfillment status",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "product": "Product",
+      "sku": "SKU",
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "fulfilled_at_html": "Fulfilled {{ date }}",
+      "subtotal": "Subtotal"
+    },
+    "recover_password": {
+      "title": "Reset your password",
+      "email": "Email",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "subtext": "We will send you an email to reset your password.",
+      "success": "We've sent you an email with a link to update your password."
+    },
+    "reset_password": {
+      "title": "Reset account password",
+      "subtext": "Enter a new password for {{ email }}",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "submit": "Reset Password"
+    },
+    "register": {
+      "title": "Create Account",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create",
+      "cancel": "Return to Store"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "product_title": "Example product",
+      "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color,  materials used, sizing, and where it was made.",
+      "collection_title": "Example collection",
+      "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Cart"
+    },
+    "customer": {
+      "account": "Account",
+      "log_out": "Log out",
+      "log_in": "Log in",
+      "create_account": "Create account"
+    },
+    "footer": {
+      "social_platform": "{{ name }} on {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "color_swatch_trigger": "Color",
+      "save_html": "Save {{ saved_amount }}",
+      "collection_return": "Back to {{ collection }}",
+      "next_product": "Next: {{ title }}",
+      "sale": "Sale",
+      "sale_price": "Sale price",
+      "regular_price": "Regular price",
+      "from_text_html": "from {{ price }}",
+      "recent_products": "Recently viewed"
+    },
+    "product": {
+      "in_stock": "In Stock",
+      "stock_label": "{{ count }} items left in stock!",
+      "sold_out": "Sold Out",
+      "unavailable": "Unavailable",
+      "quantity": "Quantity",
+      "add_to_cart": "Add to cart",
+      "preorder": "Pre-order",
+      "include_taxes": "Tax included.",
+      "shipping_policy_html": "<a href='{{ link }}'>Shipping<\/a> calculated at checkout.",
+      "will_not_ship_until": "Will not ship until {{ date }}",
+      "will_be_in_stock_after": "Will be in stock after {{ date }}",
+      "waiting_for_stock": "Inventory on the way",
+      "view_in_space": "View in your space",
+      "view_in_space_label": "View in your space, loads item in augmented reality window",
+      "gaiming_chair": "Gaming Chair"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "Here's your {{ value }} gift card for {{ shop }}!",
+      "subtext": "Here's your gift card!",
+      "disabled": "Disabled",
+      "expired": "Expired on {{ expiry }}",
+      "active": "Expires on {{ expiry }}",
+      "redeem": "Use this code at checkout to redeem your gift card",
+      "shop_link": "Start shopping",
+      "print": "Print",
+      "add_to_apple_wallet": "Add to Apple Wallet"
+    }
+  },
+  "custom": {
+    "benefits": {
+      "free_delivery": {
+        "title": "Free UK and EU delivery",
+        "text": "Quickly get comfortable. Our strategically placed distribution centres enable us to speed up delivery times and improve our service so you can enjoy our products quicker and at no extra cost.",
+        "link_text": "Find out more"
+      },
+      "have_question": {
+        "title": "Have a question?",
+        "text": "We pride ourselves on delivering the best customer service possible. For any assistance, talk to a customer service representative now via our chat feature, by telephone or by email.",
+        "link_text": "Get an answer"
+      },
+      "klarna": {
+        "title": "Buy now, pay later",
+        "text": "We do our best to make our products affordable and accessible to as many customers as possible, nobody should be left out! View our different financing and flexible payment options now."
+      }
+    },
+    "sub_discount": {
+      "title": "Receive {{ currency_symbol }}15 off your first purchase!",
+      "text": "Sign up for the latest news, access to exclusive deals, limited edition launches, product re-stocks and more."
+    },
+    "product": {
+      "review": {
+        "hawk": {
+          "text": "“Couldn’t be happier, the cushions are so comfy, the chair is top quality and arrived the next day, really happy.”",
+          "name": "Philip K",
+          "type": "Customer"
+        },
+        "ultra": {
+          "text": "“My back feels so much better with the extra support and the quality of the chair is excellent.”",
+          "name": "James B",
+          "type": "Customer"
+        }
+      },
+      "form": {
+        "review": "100% No risk money back guarantee"
+      }
+    },
+    "klarna_images": {
+      "secure_chekout": "Secure Checkout",
+      "return": "30-Day Returns",
+      "delivery": "Free Delivery",
+      "later": "Buy Now Pay Later"
+    },
+    "featured_review": {
+      "hawk": {
+        "text": "This chair took my game to the next level, I can sit in comfort and concentrate for hours without getting tired, it’s amazing!",
+        "author": "EmperorM",
+        "description": "eSports Pro"
+      },
+      "ultra": {
+        "text": "My game has really improved after using Duelhawk Ultra gaming chair, I feel a lot more support and don’t get tired. A great investment.",
+        "author": "Aywalls",
+        "description": "eSports Pro"
+      }
+    },
+    "additional_info": {
+      "features": "Features",
+      "warranty": "Warranty",
+      "shipping": "Shipping",
+      "specifications": "Specifications",
+      "faqs": "FAQs",
+      "reviews": "Reviews"
+    },
+    "features_finishes": {
+      "title": "Available in\ntwo fresh finishes",
+      "title_1": "PU Leather",
+      "text_1": "We only use the finest materials in specific colours to maximise durability and provide the most comfortable experience. The PU leather features a slightly matt finish ensuring the chair looks new throughout its life.",
+      "title_2": "Fabric",
+      "text_2": "Duelhawk superfine fabric chairs are made with one of the most durable and soft yarns available providing the perfect balance of durability, breathability and comfort. The fabric is very soft with a ‘felt’ feel to it."
+    },
+    "features_comfort": {
+      "hawk": {
+        "title_1": "Superior comfort with memory foam",
+        "text_1": "Experience first class seating thanks to innovative memory foam technology which provides support for you back and the comfort to work and play long hours minimising fatigue. The Duelhawk HR moulded foam formula and unique production process provides better comfort, support and durability, this is why our products come with a 3-year guarantee as standard, which can be extended to 5 years with the Duelhawk Extended Warranty Program. Duelhawk HR molded foam formula is designed to deliver a density of foam that provides perfect posture support. This enables longer sitting times with less fatigue."
+      },
+      "ultra": {
+        "title_1": "Superior comfort with adjustable lumbar support",
+        "text_1": "All Duelhawk Ultra gaming chairs feature an integrated adjustable lumbar support mechanism. The lordotic curve is the lower part of the spine which naturally curves inwards whilst seated. Our unique lumbar support mechanism has been developed to prevent this and help promote good posture by filling the gap between the lower back and the chair, this not only allows your back muscles to relax but also provides the perfect position for longer seating times."
+      }
+    },
+    "features_keys": {
+      "hawk": {
+        "title": "Key features",
+        "title_1": "The best armrests in the game",
+        "text_1": "Duelhawk 2nd generation 4D Armrests provide the latest in multi-directional comfort for the perfect seating position.",
+        "title_2": "Sit in comfort for hours",
+        "text_2": "A perfect balance of firmness and comfort thanks to an exclusive Duelhawk HR moulded foam formula.",
+        "title_3": "Advanced lumbar and neck support",
+        "text_3": "The Hawk gaming chair ships with low-density memory foam lumbar and neck support cushions.",
+        "title_4": "Heavy duty multi-functional tilt mechanism",
+        "text_4": "By moving the point of recline from the centre of the chair to behind the knee enables you to keep your feet on the ground."
+      },
+      "ultra": {
+        "title": "Key features",
+        "title_1": "The best armrests in the game",
+        "text_1": "Duelhawk 2nd generation 4D Armrests provide the latest in multi-directional comfort for the perfect seating position.",
+        "title_2": "Sit in comfort for hours",
+        "text_2": "A perfect balance of firmness and comfort thanks to an exclusive Duelhawk HR moulded foam formula.",
+        "title_3": "Advanced lumbar and neck support",
+        "text_3": "The Ultra gaming chair features a fully adjustable integrated  lumbar support mechanism.",
+        "title_4": "Heavy duty multi-functional tilt mechanism",
+        "text_4": "By moving the point of recline from the centre of the chair to behind the knee enables you to keep your feet on the ground."
+      }
+    },
+    "warranty": {
+      "left": {
+        "title": "3-year Warranty as standard",
+        "text": "All Duelhawk chairs come with a 3 year Warranty as standard and can be extended to 5 years with our Extended Warranty Program for added peace of mind.",
+        "l1": "Repair or replace all defective products",
+        "l2": "Replacement parts sent free of charge",
+        "l3": "Claim within 14 days of noticing a defect",
+        "button": "Read full warranty statement"
+      },
+      "right": {
+        "title": "Return\/Refund Policy",
+        "text": "Should you like to exchange or  return a product, you may do so subject to our Warranty Statement up to 14 days from the date of delivery and subject to return fees.",
+        "l1": "Exchange or replace a product for free",
+        "l2": "Return within 14 days of receipt of product",
+        "l3": "Item must be in its original condition",
+        "button": "Read full return and refund policy"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "tab_1": {
+        "text": "Frequent Questions",
+        "list": {
+          "qtitle_1": "Which gaming chair is right for me?",
+          "title_1": "Which gaming chair is right for me?",
+          "text_1": "The main difference between the Hawk gaming chair and the Ultra gaming chair models are the dimensions and features. \n\nThe Hawk gaming chair was designed for small to medium users in mind, with a maximum height of 180 cm and weight of  110 kg. The Ultra gaming chair is capable of supporting users with a height of up to 200 cm and weight of 130 kg. The Ultra gaming chair is also more advanced with features such as built-in adjustable lumbar support for additional comfort."
+        }
+      },
+      "tab_2": {
+        "text": "Orders & Payment",
+        "list": {
+          "qtitle_1": "What ways am I able to pay for my order?",
+          "title_1": "What ways am I able to pay for my order?",
+          "text_1": "We aim to provide all major payment methods.\n\nYou may pay for your order securely via Stripe using a debit card or credit card. Additionally, we also offer other payment options such as iDeal, Bancontact, Cartes Bancaires, SOFORT Banking and Przelewy24.",
+          "qtitle_2": "How do I make a VAT exempt order?",
+          "title_2": "How do I make a VAT exempt order?",
+          "text_2": "VAT exempt purchases are available to those who are eligible.\n\nPlease contact our dedicated support team so we are able to create a special order for you."
+        }
+      },
+      "tab_3": {
+        "text": "Shipping",
+        "list": {
+          "qtitle_1": "Which countries do you ship to?",
+          "title_1": "List of countries we ship to:",
+          "text_1": "Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden and United Kingdom.",
+          "qtitle_2": "How much will shipping cost?",
+          "title_2": "How much will shipping cost?",
+          "text_2": "Shipping is free on every purchase.\n\nDuelhawk aims to provide excellent customer service which is why we include free tracked shipping on all orders."
+        }
+      },
+      "tab_4": {
+        "text": "Warranty, Refunds & Returns",
+        "list": {
+          "qtitle_1": "How do I extend my warranty?",
+          "title_1": "How do I extend my warranty?",
+          "text_1": "The Duelhawk Extended 5-Year Warranty Program may be purchased on all products\n\nTo be part of the Duelhawk 5-Year Extended Warranty Program, simply add it to your cart at checkout. Please contact a member of our customer service team should you wish to add it after you have made a purchase."
+        }
+      },
+      "tab_5": {
+        "text": "Product Assembly & Care",
+        "list": {
+          "qtitle_1": "Can my chair be pre-assembled?",
+          "title_1": "Can my chair be pre-assembled?",
+          "text_1": "Currently all our chairs are sent unassembled and will be built upon arrival. In an effort to simply the process, all Duelhawk chairs come with a clear set of instructions and assembly guide."
+        }
+      }
+    },
+    "shipping": {
+      "title": "Shipping",
+      "l1": "Free shipping on all orders to the EU & UK",
+      "l2": "Tracking number provided on all shipments",
+      "l3": "Standard delivery time 1-7 days",
+      "subtitle": "Return\/Refund Policy",
+      "text": "Should you like to exchange or  return a product, you may do so subject to our Warranty Statement up to 14 days from the date of delivery and subject to return fees.",
+      "button": "Read full shipping statement",
+      "ttitle": "Order Tracking",
+      "ttext": "All orders are sent using a trackable service where available. Shipping confirmation will be sent once a product has left our warehouse. Simply click on the link to view up-to-date tracking information."
+    },
+    "gallery": {
+      "title": "Made for Comfort"
+    },
+    "promo": {
+      "variants_ultra": "Available in 3 variants",
+      "shop_ultra": "Shop the Ultra Series",
+      "variants_hawk": "Available in 2 variants",
+      "shop_hawk": "Shop the Hawk Series",
+      "kawk_chair": "Hawk Gaming Chair",
+      "ultra_chair": "Ultra Gaming Chair"
+    },
+    "spec": {
+      "hawk": {
+        "title_0": "Recommended Size",
+        "title_1": "Certifications & Manuals",
+        "title_2": "What’s in the Box",
+        "mweight": "max weight",
+        "mheight": "max height",
+        "list_1": "Duelhawk Gaming Chair",
+        "list_2": "Memory Foam Lumbar Support Cushion",
+        "list_3": "Memory Foam Head Rest Cushion",
+        "list_4": "3 Year Warranty (not including accidental damage)",
+        "text_1": "User Manual",
+        "text_2": "ISO 9001",
+        "text_3": "Assembly Guide",
+        "text_4": "Duelhawk PU Leather Durability Test",
+        "text_5": "Duelhawk PU Fabric Durability Test"
+      },
+      "ultra": {
+        "title_0": "Recommended Size",
+        "title_1": "Certifications & Manuals",
+        "title_2": "What’s in the Box",
+        "mweight": "max weight",
+        "mheight": "max height",
+        "list_1": "Duelhawk Gaming Chair",
+        "list_2": "Memory Foam",
+        "list_3": "Memory Foam Head Rest Cushion",
+        "list_4": "3 Year Warranty (not including accidental damage)",
+        "text_1": "User Manual",
+        "text_2": "ISO 9001",
+        "text_3": "Assembly Guide",
+        "text_4": "Duelhawk PU Leather Durability Test",
+        "text_5": "Duelhawk PU Fabric Durability Test"
+      }
+    },
+    "announcmentbar": {
+      "text": "Free UK & EU Shipping",
+      "link": "Shop now"
+    },
+    "questions": {
+      "title_1": "Have any more\nquestions?",
+      "text_1": "Our team is here 24\/7 to answer any questions you have about our products, service or anything else. We’re here to help.",
+      "button_1": "Get in touch"
+    },
+    "header": {
+      "buynow": "Buy Now",
+      "variant": "Select Material",
+      "sale": "Hurry, sale ends soon"
+    },
+    "dropdown": {
+      "title1": "Black Carbon PU Leather",
+      "title2": "Hawk Gaming Chair",
+      "title3": "Jet Black PU Leather Gaming Chair",
+      "title4": "Moonrock Gaming Chair",
+      "title5": "Ultra Gaming Chair",
+      "text": "- High quality materials\n- Lumbar & neck support\n- Flog-tilt mechanism\n- Designed in Britain"
+    }
+  }
+}

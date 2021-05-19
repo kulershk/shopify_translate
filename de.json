@@ -1,0 +1,588 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Direkt zum Inhalt",
+      "close_modal": "Schließen (Esc)",
+      "close": "Schließen",
+      "learn_more": "Erfahren Sie mehr"
+    },
+    "meta": {
+      "tags": "Getaggt \"{{ tags }}\"",
+      "page": "Seite {{ page }}"
+    },
+    "404": {
+      "title": "404 Seite nicht gefunden",
+      "subtext_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href='{{ url }}'>hier<\/a>, um den Einkauf fortzusetzen."
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Vorwärts"
+    },
+    "password_page": {
+      "login_form_heading": "Shop mit Passwort betreten:",
+      "login_form_password_label": "Passwort",
+      "login_form_password_placeholder": "Ihr Passwort",
+      "login_form_submit": "Betreten",
+      "signup_form_email_label": "E-Mail",
+      "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
+      "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"\/admin\" class=\"text-link\">Melden Sie sich hier an<\/a>",
+      "password_link": "Mit Passwort betreten",
+      "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden"
+    },
+    "breadcrumbs": {
+      "home": "Startseite",
+      "home_link_title": "Zurück zur Startseite"
+    },
+    "social": {
+      "share_on_facebook": "Teilen",
+      "share_on_twitter": "Twittern",
+      "share_on_pinterest": "Pinnen",
+      "alt_text": {
+        "share_on_facebook": "Auf Facebook teilen",
+        "share_on_twitter": "Auf Twitter twittern",
+        "share_on_pinterest": "Auf Pinterest pinnen"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Melden Sie sich für unsere Mailingliste an",
+      "newsletter_confirmation": "Danke fürs Anmelden",
+      "submit": "Abonnieren"
+    },
+    "search": {
+      "view_more": "Mehr sehen",
+      "collections": "Kollektionen:",
+      "pages": "Seiten:",
+      "articles": "Artikel:",
+      "no_results_html": "Ihre Suche nach \"{{ terms }}\" hat keine Ergebnisse hervorgebracht.",
+      "results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
+      "title": "Suche",
+      "placeholder": "Durchsuchen Sie unseren Shop",
+      "submit": "Suchen",
+      "result_count": {
+        "one": "{{ count }} Ergebnis",
+        "other": "{{ count }} Ergebnisse"
+      }
+    },
+    "drawers": {
+      "navigation": "Seitennavigation",
+      "close_menu": "Menü schließen",
+      "expand_submenu": "Menü maximieren",
+      "collapse_submenu": "Menü minimieren"
+    },
+    "currency": {
+      "dropdown_label": "Währung"
+    },
+    "language": {
+      "dropdown_label": "Sprache"
+    }
+  },
+  "sections": {
+    "map": {
+      "get_directions": "Richtungen",
+      "address_error": "Kann die Adresse nicht finden",
+      "address_no_results": "Keine Ergebnisse für diese Adresse",
+      "address_query_limit_html": "Sie haben die Google- API-Nutzungsgrenze überschritten. Betrachten wir zu einem <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-Paket<\/a> zu aktualisieren.",
+      "auth_error_html": "Es gab ein Problem bei Google Maps Konto zu authentifizieren. Erstellen und die <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript- API<\/a> und <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> -Berechtigungen der App aktivieren."
+    }
+  },
+  "blogs": {
+    "article": {
+      "view_all": "Alle anzeigen",
+      "tags": "Tags",
+      "read_more": "Weiterlesen",
+      "back_to_blog": "Zurück zu {{ title }}"
+    },
+    "comments": {
+      "title": "Hinterlassen Sie einen Kommentar",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "post": "Kommentar posten",
+      "moderated": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
+      "success_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen.",
+      "success": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
+      "with_count": {
+        "one": "{{ count }} Kommentar",
+        "other": "{{ count }} Kommentare"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Einkaufswagen",
+      "remove": "Entfernen",
+      "note": "Besondere Hinweise an den Verkäufer",
+      "subtotal": "Zwischensumme",
+      "discounts": "Rabatte",
+      "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
+      "update": "Einkaufswagen aktualisieren",
+      "checkout": "Zur Kasse",
+      "empty": "Ihr Einkaufswagen ist im Moment leer.",
+      "continue_browsing_html": "Mit der Suche <a href='{{ url }}'>hier<\/a> fortfahren.",
+      "close_cart": "Einkaufswagen schließen",
+      "reduce_quantity": "Artikelmenge um eins reduzieren",
+      "increase_quantity": "Artikelmenge um eins erhöhen",
+      "terms": "Ich stimme den Nutzungsbedingungen zu",
+      "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen<\/a> zu",
+      "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken"
+    },
+    "label": {
+      "price": "Preis",
+      "quantity": "Menge",
+      "total": "Gesamt"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Katalog",
+      "all_of_collection": "Alle",
+      "view_all_products_html": "zeige alle<br>{{ count }} Produkte an",
+      "see_more": "Zeig mehr",
+      "see_less": "Zeige weniger",
+      "no_matches": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben.",
+      "items_with_count": {
+        "one": "{{ count }} Produkt",
+        "other": "{{ count }} Produkte"
+      }
+    },
+    "sorting": {
+      "title": "Sortieren"
+    },
+    "filters": {
+      "title_tags": "Filtern",
+      "all_tags": "Alle Produkte",
+      "categories_title": "Kategorien"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "message": "Nachricht",
+      "send": "Absenden",
+      "post_success": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mein Account",
+      "details": "Account-Details",
+      "view_addresses": "Adressen ansehen",
+      "return": "Zurück zu Account-Details"
+    },
+    "activate_account": {
+      "title": "Account aktivieren",
+      "subtext": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren.",
+      "password": "Passwort",
+      "password_confirm": "Passwort bestätigen",
+      "submit": "Account aktivieren",
+      "cancel": "Einladung ablehnen"
+    },
+    "addresses": {
+      "title": "Ihre Adressen",
+      "default": "Standard",
+      "add_new": "Neue Adresse hinzufügen",
+      "edit_address": "Adresse bearbeiten",
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "company": "Firma",
+      "address1": "Adresse1",
+      "address2": "Adresse2",
+      "city": "Stadt",
+      "country": "Land",
+      "province": "Bundesland",
+      "zip": "PLZ",
+      "phone": "Telefon",
+      "set_default": "Als Standard-Adresse festlegen",
+      "add": "Adresse hinzufügen",
+      "update": "Adresse aktualisieren",
+      "cancel": "Abbrechen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
+    },
+    "login": {
+      "title": "Login",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "forgot_password": "Haben Sie Ihr Passwort vergessen?",
+      "sign_in": "Anmelden",
+      "cancel": "Zurück zum Shop",
+      "guest_title": "Als Gast fortsetzen",
+      "guest_continue": "Fortsetzen"
+    },
+    "orders": {
+      "title": "Bestellungen",
+      "order_number": "Bestellung",
+      "date": "Datum",
+      "payment_status": "Zahlungsstatus",
+      "fulfillment_status": "Lieferstatus",
+      "total": "Gesamt",
+      "none": "Sie haben noch keine Bestellungen aufgegeben."
+    },
+    "order": {
+      "title": "Bestellung {{ name }}",
+      "date_html": "Aufgegeben am {{ date }}",
+      "cancelled_html": "Bestellung storniert am {{ date }}",
+      "cancelled_reason": "Grund: {{ reason }}",
+      "billing_address": "Rechnungsadresse",
+      "payment_status": "Zahlungsstatus",
+      "shipping_address": "Lieferadresse",
+      "fulfillment_status": "Lieferstatus",
+      "discount": "Rabatt",
+      "shipping": "Versand",
+      "tax": "Steuern",
+      "product": "Artikel",
+      "sku": "SKU",
+      "price": "Preis",
+      "quantity": "Menge",
+      "total": "Gesamt",
+      "fulfilled_at_html": "Geliefert am {{ date }}",
+      "subtotal": "Zwischensumme"
+    },
+    "recover_password": {
+      "title": "Passwort zurücksetzen",
+      "email": "E-Mail",
+      "submit": "Absenden",
+      "cancel": "Abbrechen",
+      "subtext": "Wir werden Ihnen eine E-Mail zum Zurücksetzen des Passworts schicken.",
+      "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt."
+    },
+    "reset_password": {
+      "title": "Account-Passwort zurücksetzen",
+      "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
+      "password": "Passwort",
+      "password_confirm": "Passwort bestätigen",
+      "submit": "Passwort zurücksetzen"
+    },
+    "register": {
+      "title": "Account erstellen",
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "submit": "Erstellen",
+      "cancel": "Zurück zum Shop"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "product_title": "Beispielhafter Produkttitel",
+      "product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu.",
+      "collection_title": "Beispielhafter Zusammenstellungstitel",
+      "no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Einkaufswagen"
+    },
+    "customer": {
+      "account": "Account",
+      "log_out": "Ausloggen",
+      "log_in": "Einloggen",
+      "create_account": "Account erstellen"
+    },
+    "footer": {
+      "social_platform": "{{ name }} auf {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "color_swatch_trigger": "Farbe",
+      "save_html": "Sparen {{ saved_amount }}",
+      "collection_return": "Zurück zur {{ collection }}",
+      "next_product": "Nächster: {{ title }}",
+      "sale": "Reduziert",
+      "sale_price": "Sonderpreis",
+      "regular_price": "Normaler Preis",
+      "from_text_html": "Von {{ price }}",
+      "recent_products": "Zuletzt Angesehen"
+    },
+    "product": {
+      "in_stock": "Verfügbar",
+      "stock_label": "{{ count }} auf Lager",
+      "sold_out": "Ausverkauft",
+      "unavailable": "Nicht verfügbar",
+      "quantity": "Menge",
+      "add_to_cart": "Jetzt Kaufen",
+      "preorder": "Vorbestellung",
+      "include_taxes": "inkl. MwSt.",
+      "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten<\/a>",
+      "will_not_ship_until": "Wird nach dem {{ date }} versendet",
+      "will_be_in_stock_after": "Wird nach dem {{ date }} auf Lager sein",
+      "waiting_for_stock": "Inventar auf dem Weg",
+      "view_in_space": "In Ihrem Bereich ansehen",
+      "view_in_space_label": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster",
+      "gaiming_chair": "Gaming Stuhl"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
+      "subtext": "Hier ist Ihre Geschenkkarte!",
+      "disabled": "Deaktiviert",
+      "expired": "Abgelaufen am {{ expiry }}",
+      "active": "Läuft ab am {{ expiry }}",
+      "redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
+      "shop_link": "Einkauf beginnen",
+      "print": "Drucken",
+      "add_to_apple_wallet": "Hinzufügen zu Apple Wallet"
+    }
+  },
+  "date_formats": {
+    "month_day_year": "%B %d, %Y"
+  },
+  "custom": {
+    "benefits": {
+      "free_delivery": {
+        "title": "Kostenlose Lieferung in UK und EU",
+        "text": "Schnell bequem erhalten. Unsere strategisch platzierten Distributionszentren ermöglichen es uns, die Lieferzeiten zu verkürzen und unseren Service zu verbessern, damit Sie unsere Produkte schneller und ohne zusätzliche Kosten genießen können.",
+        "link_text": "Erfahren Sie mehr"
+      },
+      "have_question": {
+        "title": "Haben Sie Fragen?",
+        "text": "Wir sind stolz darauf, unseren Kunden den bestmöglichen Service zu bieten. Wenn Sie Hilfe benötigen, sprechen Sie jetzt mit einem Kundenbetreuer über unsere Chat-Funktion, per Telefon oder per E-Mail.",
+        "link_text": "Bekommen Sie eine Antwort"
+      },
+      "klarna": {
+        "title": "Jetzt kaufen, später bezahlen",
+        "text": "Wir tun unser Bestes, um unsere Produkte für so viele Kunden wie möglich erschwinglich und zugänglich zu machen, niemand soll außen vor bleiben! Sehen Sie sich jetzt unsere verschiedenen Finanzierungs- und flexiblen Zahlungsmöglichkeiten an."
+      }
+    },
+    "sub_discount": {
+      "title": "Erhalten Sie {{ currency_symbol }}15 Rabatt auf Ihren ersten Einkauf!",
+      "text": "Melden Sie sich an, um die neuesten Nachrichten, Zugang zu exklusiven Angeboten, limitierten Editionen, Produktneueinführungen und mehr zu erhalten."
+    },
+    "product": {
+      "review": {
+        "hawk": {
+          "text": "“Könnte nicht glücklicher sein, die Kissen sind so bequem, der Stuhl ist Top-Qualität und kam am nächsten Tag an, wirklich glücklich.”",
+          "name": "Philip K",
+          "type": "Kunde"
+        },
+        "ultra": {
+          "text": "“My back feels so much better with the extra support and the quality of the chair is excellent.”",
+          "name": "James B",
+          "type": "Customer"
+        }
+      },
+      "form": {
+        "review": "100% Geld-zurück-Garantie ohne Risiko"
+      }
+    },
+    "klarna_images": {
+      "secure_chekout": "Sicherer Checkout",
+      "return": "30-Tage-Rückgabe",
+      "delivery": "Kostenlose Lieferung",
+      "later": "Jetzt kaufen und später bezahlen"
+    },
+    "featured_review": {
+      "hawk": {
+        "text": "Dieser Stuhl hat mein Spiel auf die nächste Stufe gebracht, ich kann bequem sitzen und mich stundenlang konzentrierenohne müde zu werden, es ist erstaunlich!",
+        "author": "EmperorM",
+        "description": "eSports-Profi"
+      },
+      "ultra": {
+        "text": "My game has really improved after using Duelhawk Ultra gaming chair, I feel a lot more support and don’t get tired. A great investment.",
+        "author": "Aywalls",
+        "description": "eSports-Profi"
+      }
+    },
+    "additional_info": {
+      "features": "Eigenschaften",
+      "warranty": "Garantie",
+      "shipping": "Versand",
+      "specifications": "Spezifikationen",
+      "faqs": "FAQs",
+      "reviews": "Bewertungen"
+    },
+    "features_finishes": {
+      "title": "Erhältlich in zwei\nneue Ausführungen",
+      "title_1": "PU Leder",
+      "text_1": "Wir verwenden nur die besten Materialien in bestimmten Farben, um die Haltbarkeit zu maximieren und das komfortabelste Erfahrung zu bieten. Das PU-Leder hat eine leicht matte Oberfläche, damit der Stuhl sein ganzes Leben lang wie neu aussieht",
+      "title_2": "Stoff",
+      "text_2": "Duelhawk-Superfine-Stoffstühle werden aus einem der strapazierfähigsten und weichsten Garne hergestellt.Sie bieten die perfekte Balance aus Haltbarkeit, Atmungsaktivität und Komfort. Der Stoff ist sehr weich und fühlt sich wie \"Filz\" an."
+    },
+    "features_comfort": {
+      "hawk": {
+        "title_1": "Überlegener Komfort mit Memory-Schaum",
+        "text_1": "Erleben Sie erstklassigen Sitzgelegenheiten dank innovativer Memory-Foam-Technologie, die Ihrem Rücken die nötige Unterstützung und den Komfort bietet, um lange Stunden ermüdungsfrei zu arbeiten und zu spielen. Die Duelhawk HR-Formschaumformel und der einzigartige Produktionsprozess sorgen für mehr Komfort, Unterstützung und Haltbarkeit, deshalb unsere Produkte standardmäßig mit einer 3-Jahres-Garantie ausgestattet sind, die mit dem Duelhawk Extended Warranty Program auf 5 Jahre verlängert werden kann. Duelhawk HR geformte Schaumformel wurde entwickelt, um eine Schaumdichte zu liefern, die bietet die perfekte Unterstützung der Körperhaltung. Das Ermöglicht längere Sitzzeiten bei geringerer Ermüdung."
+      },
+      "ultra": {
+        "title_1": "Superior comfort with adjustable lumbar support",
+        "text_1": "All Duelhawk Ultra gaming chairs feature an integrated adjustable lumbar support mechanism. The lordotic curve is the lower part of the spine which naturally curves inwards whilst seated. Our unique lumbar support mechanism has been developed to prevent this and help promote good posture by filling the gap between the lower back and the chair, this not only allows your back muscles to relax but also provides the perfect position for longer seating times."
+      }
+    },
+    "features_keys": {
+      "hawk": {
+        "title": "Hauptmerkmale",
+        "title_1": "Die besten Armlehnen im Spiel",
+        "text_1": "Duelhawk 4D-Armlehnen der 2. Generation bieten den modernsten multidirektionalen Komfort mit dem den Vorteil, die perfekte ergonomische Sitzposition zu finden.",
+        "title_2": "Stundenlanges Sitzen in Komfort",
+        "text_2": "Ein perfektes Gleichgewicht von Festigkeit und Komfort dank der exklusiven Duelhawk HR-Formschaumformel.",
+        "title_3": "Erweiterte Lenden- und Nackenstütze",
+        "text_3": "Der Hawk-Gaming-Stuhl wird mit Lendenwirbel- und Nackenstützkissen geliefert.",
+        "title_4": "Hochbelastbarer multifunktionaler Kippmechanismus",
+        "text_4": "Die Verlagerung des Neigungspunktes von der Mitte des Stuhls bis kurz hinter das Knie ermöglicht es Ihnen, die Füße beim Zurücklehnen auf dem Boden zu lassen, was deutlich weniger Kraftaufwand erfordert."
+      },
+      "ultra": {
+        "title": "Hauptmerkmale",
+        "title_1": "Die besten Armlehnen im Spiel",
+        "text_1": "Duelhawk 4D-Armlehnen der 2. Generation bieten den modernsten multidirektionalen Komfort mit dem den Vorteil, die perfekte ergonomische Sitzposition zu finden.",
+        "title_2": "Stundenlanges Sitzen in Komfort",
+        "text_2": "Ein perfektes Gleichgewicht von Festigkeit und Komfort dank der exklusiven Duelhawk HR-Formschaumformel.",
+        "title_3": "Erweiterte Lenden- und Nackenstütze",
+        "text_3": "Der Hawk-Gaming-Stuhl wird mit Lendenwirbel- und Nackenstützkissen geliefert.",
+        "title_4": "Hochbelastbarer multifunktionaler Kippmechanismus",
+        "text_4": "Die Verlagerung des Neigungspunktes von der Mitte des Stuhls bis kurz hinter das Knie ermöglicht es Ihnen, die Füße beim Zurücklehnen auf dem Boden zu lassen, was deutlich weniger Kraftaufwand erfordert."
+      }
+    },
+    "warranty": {
+      "left": {
+        "title": "3 Jahre Garantie als Standard.",
+        "text": "Alle Duelhawk-Stühle werden standardmäßig mit einer 3-Jahres-Garantie geliefert und können mit unserem erweiterten Garantieprogramm auf 5 Jahre verlängert werden, um Ihnen zusätzliche Sicherheit zu bieten.",
+        "l1": "Reparatur oder Ersatz aller defekten Produkte",
+        "l2": "Kostenloser Ersatzteilversand",
+        "l3": "Reklamation innerhalb von 14 Tagen nach Feststellung eines Defekts",
+        "button": "Lesen Sie die vollständige Garantieerklärung"
+      },
+      "right": {
+        "title": "Rückgabe-\/Erstattungsrichtlinie",
+        "text": "Wenn Sie ein Produkt umtauschen oder zurückgeben möchten, können Sie dies im Rahmen unserer Garantie Erklärung bis zu 14 Tage ab Lieferdatum und unter Berücksichtigung der Rücksendegebühren umtauschen.",
+        "l1": "Umtausch oder kostenloser Ersatz eines Produkts",
+        "l2": "Rückgabe innerhalb von 14 Tagen nach Erhalt des Produkts",
+        "l3": "Artikel muss sich im Originalzustand befinden",
+        "button": "Lesen Sie die vollständigen Rückgabe- und Rückerstattungsrichtlinien"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "tab_1": {
+        "text": "Häufige Fragen",
+        "list": {
+          "qtitle_1": "Welcher Gaming-Stuhl ist der richtige für mich?",
+          "title_1": "Welcher Gaming-Stuhl ist der richtige für mich?",
+          "text_1": "Der Hauptunterschied zwischen dem Hawk Gaming Chair und dem Ultra Gaming Chair Modellen sind die Abmessungen und die Ausstattung.\n\nDer Hawk-Gaming-Stuhl wurde für kleine bis mittelgroße Nutzer konzipiert, mit einer mit einer maximalen Körpergröße von 180 cm und einem Gewicht von 110 kg. Der Ultra-Gaming-Stuhl ist in der Lage Benutzer mit einer Körpergröße von bis zu 200 cm und einem Gewicht von 130 kg unterstützen.\n\nDer Ultra Gaming-Stuhl ist auch fortschrittlicher mit Funktionen wie der integrierten einstellbaren Lendenwirbelstütze für zusätzlichen Komfort."
+        }
+      },
+      "tab_2": {
+        "text": "Bestellung & Bezahlung",
+        "list": {
+          "qtitle_1": "Auf welche Weise kann ich meine Bestellung bezahlen?",
+          "title_1": "Auf welche Weise kann ich meine Bestellung bezahlen?",
+          "text_1": "Wir bemühen uns, alle gängigen Zahlungsmethoden anzubieten.\n\nSie können Ihre Bestellung sicher über Stripe mit einer Debitkarte oder Kreditkarte bezahlen. Zusätzlich bieten wir auch andere Zahlungsmöglichkeiten wie iDeal, Bancontact, Cartes Bancaires, SOFORT Banking und Przelewy24. ",
+          "qtitle_2": "Wie kann ich eine mehrwertsteuerbefreite Bestellung aufgeben?",
+          "title_2": "Wie kann ich eine mehrwertsteuerbefreite Bestellung aufgeben?",
+          "text_2": "Mehrwertsteuerbefreite Einkäufe sind für diejenigen möglich, die dazu berechtigt sind.\n\nBitte kontaktieren Sie unser engagiertes Support-Team, damit wir eine spezielle Bestellung für Sie erstellen können."
+        }
+      },
+      "tab_3": {
+        "text": "Versand",
+        "list": {
+          "qtitle_1": "In welche Länder liefern Sie?",
+          "title_1": "Liste der Länder, in die wir liefern:",
+          "text_1": "Österreich, Belgien, Bulgarien, Kroatien, Republik Zypern, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Ungarn, Irland, Italien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Polen, Portugal, Rumänien, Slowakei, Ungarn, Slowenien, Spanien, Schweden und Vereinigtes Königreich.",
+          "qtitle_2": "Wie viel kostet der Versand?",
+          "title_2": "Wie viel kostet der Versand?",
+          "text_2": "Der Versand ist bei jedem Kauf kostenlos.\n\nDuelhawk ist bestrebt, seinen Kunden einen exzellenten Service zu bieten, deshalb bieten wir einen kostenlosen verfolgten Versand für alle Bestellungen."
+        }
+      },
+      "tab_4": {
+        "text": "Garantie, Rückerstattung und Rückgabe",
+        "list": {
+          "qtitle_1": "Wie kann ich meine Garantie verlängern?",
+          "title_1": "Wie kann ich meine Garantie verlängern?",
+          "text_1": "Das Duelhawk Extended 5-Year Warranty Program kann für alle Produkte erworben werden. Um am Duelhawk 5-Jahres Garantieerweiterungsprogramm teilzunehmen, fügen Sie es einfach Ihrem Warenkorb an der Kasse. Bitte wenden Sie sich an ein Mitglied unseres Kundenservice-Teams, wenn Sie es nach dem Kauf hinzufügen möchten."
+        }
+      },
+      "tab_5": {
+        "text": "Produktmontage & Pflege",
+        "list": {
+          "qtitle_1": "Kann mein Stuhl vormontiert werden?",
+          "title_1": "Kann mein Stuhl vormontiert werden?",
+          "text_1": "Derzeit werden alle unsere Stühle unmontiert versendet und bei Ankunft aufgebaut. Im Bemühen um den Prozess zu vereinfachen, werden alle Duelhawk Stühle mit einer klaren Anleitung und einer Montageanleitung kommen."
+        }
+      }
+    },
+    "shipping": {
+      "title": "Versand",
+      "l1": "Kostenloser Versand für alle Bestellungen in die EU & UK",
+      "l2": "Tracking-Nummer für alle Sendungen",
+      "l3": "Standardlieferzeit 1-7 Tage",
+      "subtitle": "Rückgabe \/ Rückerstattungsrichtlinien",
+      "text": "Wenn Sie ein Produkt umtauschen oder zurückgeben möchten, können Sie dies im Rahmen unserer Garantie Erklärung bis zu 14 Tage ab Lieferdatum und unter Berücksichtigung der Rücksendegebühren umtauschen.",
+      "button": "Lesen Sie die vollständige Versanderklärung",
+      "ttitle": "Nachverfolgung der Bestellung",
+      "ttext": "Alle Bestellungen werden, sofern verfügbar, mit einem verfolgbaren Service versendet. Die Versandbestätigung wird sobald ein Produkt unser Lager verlassen hat. Klicken Sie einfach auf den Link, um die aktuellen Tracking-Informationen."
+    },
+    "gallery": {
+      "title": "Gemacht für Komfort"
+    },
+    "promo": {
+      "variants_ultra": "Erhältlich in 3 Variantens",
+      "shop_ultra": "Kaufen Sie die Ultra Series",
+      "variants_hawk": "Erhältlich in 2 Varianten",
+      "shop_hawk": "Kaufen Sie die Hawk Series",
+      "kawk_chair": "Hawk Gaming Stuhl",
+      "ultra_chair": "Ultra Gaming Stuhl"
+    },
+    "spec": {
+      "hawk": {
+        "title_0": "Empfohlene Größe",
+        "title_1": "Zertifizierungen & Handbücher",
+        "title_2": "Was ist in der Box",
+        "mweight": "max. Gewicht",
+        "mheight": "max Höhe",
+        "list_1": "DuelHawk Gaming Stuhl",
+        "list_2": "Memory Foam Lendenwirbelstützkissen",
+        "list_3": "Memory Foam Kopfstützenkissen",
+        "list_4": "3 Jahre Garantie (außer bei Unfallschäden)",
+        "text_1": "Benutzerhandbuch",
+        "text_2": "ISO 9001",
+        "text_3": "Montageanleitung",
+        "text_4": "Duelhawk PU-Leder Dauerhaftigkeitstest",
+        "text_5": "Duelhawk PU-Gewebe Haltbarkeitstest"
+      },
+      "ultra": {
+        "title_0": "Empfohlene Größe",
+        "title_1": "Zertifizierungen & Handbücher",
+        "title_2": "Was ist in der Box",
+        "mweight": "max. Gewicht",
+        "mheight": "max Höhe",
+        "list_1": "DuelHawk Gaming Stuhl",
+        "list_2": "Memory Foam",
+        "list_3": "Memory Foam Kopfstützenkissen",
+        "list_4": "3 Jahre Garantie (außer bei Unfallschäden)",
+        "text_1": "Benutzerhandbuch",
+        "text_2": "ISO 9001",
+        "text_3": "Montageanleitung",
+        "text_4": "Duelhawk PU-Leder Dauerhaftigkeitstest",
+        "text_5": "Duelhawk PU-Gewebe Haltbarkeitstest"
+      }
+    },
+    "announcmentbar": {
+      "text": "Kostenloser Versand innerhalb Großbritanniens und der EU",
+      "link": "Jetzt einkaufen"
+    },
+    "questions": {
+      "title_1": "Haben Sie weitere\nFragen?",
+      "text_1": "Unser Team ist rund um die Uhr für Sie da, wenn Sie Fragen zu unseren Produkten, unserem Service oder anderen Themen haben. Wir sind für Sie da!",
+      "button_1": "Kontaktieren Sie uns"
+    },
+    "header": {
+      "buynow": "Jetzt kaufen",
+      "variant": "Wählen Sie Material",
+      "sale": "Beeilen Sie sich, der Verkauf endet bald"
+    },
+    "dropdown": {
+      "title1": "Hawk PU Leder",
+      "title2": "Hawk Stoff",
+      "title3": "Jet Black PU Leather Gaming Chair",
+      "title4": "Moonrock Gaming Chair",
+      "title5": "Ultra Stoff",
+      "text": "- Hochwertige Materialien\n- Lordosen- und Nackenstütze\n- Flog-Kipp-Mechanismus\n- Entwickelt in Großbritannien"
+    }
+  }
+}

@@ -57,7 +57,7 @@ function clickTranslate(event) {
     var dataObj = {
         "auth_key": $('.deepl').val(),
         "text": val,
-        "target_lang": "FR"
+        "target_lang": $(".tlang").val()
     }
 
     $.ajax({

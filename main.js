@@ -67,7 +67,7 @@ class LanguageParser {
             this.export_pass(this.exportJson, [...val.path] ,val.key, key)
         });
 
-        download(globalname+".json",JSON.stringify(this.exportJson));
+        download($('.globalname').val()+".json",JSON.stringify(this.exportJson));
     }
 
     show() {

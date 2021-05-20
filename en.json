@@ -569,6 +569,9 @@
       "button_1": "Get in touch"
     },
     "header": {
+      "title": "The Gaming Chair. Reinvented.",
+      "text": "Slide into our chair designed for maximum comfort, helping you focus everything you have into the game.",
+      "button": "Shop Now",
       "buynow": "Buy Now",
       "variant": "Select Material",
       "sale": "Hurry, sale ends soon"
@@ -580,11 +583,6 @@
       "title4": "Moonrock Gaming Chair",
       "title5": "Ultra Gaming Chair",
       "text": "- High quality materials\n- Lumbar & neck support\n- Flog-tilt mechanism\n- Designed in Britain"
-    },
-    "header": {
-      "title": "The Gaming Chair. Reinvented.",
-      "text": "Slide into our chair designed for maximum comfort, helping you focus everything you have into the game.",
-      "button": "Shop Now"
     }
   }
 }

@@ -7,20 +7,21 @@ var input_template = `
             </div>
         </div>
             
-        <div class="col-6">
+        <div class="col-6">           
             <div class="input-group mb-2 mt-2">
-            <textarea rows="4" data-id="other-{{num}}" data-path="{{id}}"></textarea>
+            <button type="button" data-t="{{id}}" onclick="clickTranslate(this)" class="btn btn-primary btn-sm float-right ml-3 translate-button" style="width: 38px;margin: 0 !important;">T</button>
+            <textarea style="width: calc(100% - 45px); margin-left: 5px;" rows="4" data-id="other-{{num}}" data-path="{{id}}"></textarea>
             </div>
         </div>
     </div>`;
 
 var parsed = new LanguageParser('en.json', true);
-var globalname = "name";
+
 
 function fileChanged(event) {
     var reader = new FileReader();
     reader.onload = onReaderLoad;
-    globalname = event.target.files[0].name.split(".")[0];
+    $(".globalname").val(event.target.files[0].name.split(".")[0]);
     reader.readAsText(event.target.files[0]);
 }
 document.getElementById('formFile').addEventListener('change', fileChanged);
@@ -46,6 +47,33 @@ function download(filename, text) {
     element.click();
 
     document.body.removeChild(element);
+}
+
+function clickTranslate(event) {
+    var t = $(event).attr("data-t");
+    var val = $('[data-id="'+t+'"]').val();
+
+
+    var dataObj = {
+        "auth_key": $('.deepl').val(),
+        "text": val,
+        "target_lang": "FR"
+    }
+
+    $.ajax({
+        type: "GET",
+        url: "https://api-free.deepl.com/v2/translate",
+        data: dataObj,
+        dataType: 'JSON',
+        success: function (response) {
+        console.log(response);
+            $('[data-path="'+t+'"]').val(response.translations[0].text);
+        },
+        error: function() {
+            alert("it failed");
+        }
+    });
+
 }
 
 // Start file download.

@@ -11,3 +11,11 @@ textarea {
     margin:15px 0;
     background-color: #0f9d58;
 }
+
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+/*.key:hover { background: gray; cursor: pointer }*/

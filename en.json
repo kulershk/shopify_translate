@@ -301,6 +301,7 @@
       "recent_products": "Recently viewed"
     },
     "product": {
+      "estimated": "Estimated to ship out by",
       "in_stock": "In Stock",
       "stock_label": "{{ count }} items left in stock!",
       "sold_out": "Sold Out",
@@ -334,7 +335,7 @@
   "custom": {
     "benefits": {
       "free_delivery": {
-        "title": "Free UK and EU delivery",
+        "title": "Free shipping",
         "text": "Quickly get comfortable. Our strategically placed distribution centres enable us to speed up delivery times and improve our service so you can enjoy our products quicker and at no extra cost.",
         "link_text": "Find out more"
       },
@@ -350,7 +351,8 @@
     },
     "sub_discount": {
       "title": "Receive {{ currency_symbol }}15 off your first purchase!",
-      "text": "Sign up for the latest news, access to exclusive deals, limited edition launches, product re-stocks and more."
+      "text": "Sign up for the latest news, access to exclusive deals, limited edition launches, product re-stocks and more.",
+      "placeholder": "Enter your email address"
     },
     "product": {
       "review": {
@@ -583,6 +585,12 @@
       "title4": "Moonrock Gaming Chair",
       "title5": "Ultra Gaming Chair",
       "text": "- High quality materials\n- Lumbar & neck support\n- Flog-tilt mechanism\n- Designed in Britain"
+    },
+    "footer": {
+      "menu": {
+        "about": "About",
+        "legal": "Legal"
+      }
     }
   }
 }

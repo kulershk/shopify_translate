@@ -1,5 +1,8 @@
 var input_template = `
     <div class="row">
+        <div class="col-12">{{id}}</div>
+    </div>
+    <div class="row">
         <div class="col-1">{{num}}</div>
         <div class="col-5">
             <div class="input-group mb-2 mt-2">
@@ -17,6 +20,28 @@ var input_template = `
 
 var parsed = new LanguageParser('en.json', true);
 
+$('body').on('change keyup paste', '[data-path]', () => {
+    myEfficientFn();
+});
+
+var myEfficientFn = debounce(() => {
+    parsed.outputText();
+}, 250);
+
+function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+        var context = this, args = arguments;
+        var later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
 
 function fileChanged(event) {
     var reader = new FileReader();
@@ -68,12 +93,53 @@ function clickTranslate(event) {
         success: function (response) {
         console.log(response);
             $('[data-path="'+t+'"]').val(response.translations[0].text);
+            if (translating) {
+                translateNext();
+            }
         },
         error: function() {
             alert("it failed");
         }
     });
 
+}
+
+translating = false;
+translateNr = 0;
+function translateAll() {
+    if (translating) {
+        return;
+    }
+    translating = true;
+    translateNext();
+}
+
+function translateNext() {
+    $('.translate-button').eq(translateNr).click();
+    translateNr++;
+}
+
+
+function syntaxHighlight(json) {
+    var num = 0;
+
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'key';
+            } else {
+                cls = 'string';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'boolean';
+        } else if (/null/.test(match)) {
+            cls = 'null';
+        }
+        num++;
+        return '<span class="' + cls + '" data-node="'+num+'">' + match + '</span>';
+    });
 }
 
 // Start file download.

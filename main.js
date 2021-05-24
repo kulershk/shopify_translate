@@ -28,6 +28,8 @@ class LanguageParser {
             if (self.showMe == true) {
                 this.show();
             }
+
+            this.outputText();
         });
     }
 
@@ -70,6 +72,18 @@ class LanguageParser {
         download($('.globalname').val()+".json",JSON.stringify(this.exportJson));
     }
 
+    outputText() {
+        this.exportJson = {};
+
+        $.each( this.list, ( key, val ) => {
+            this.export_pass(this.exportJson, [...val.path] ,val.key, key)
+        });
+
+        $(".output-json").html(syntaxHighlight(JSON.stringify(this.exportJson, null, '  ')));
+
+
+    }
+
     show() {
         // translate-content
         $.each( this.list, ( key, val ) => {
@@ -101,5 +115,48 @@ class LanguageParser {
             $('[data-path="'+n+'"]').val(val.text);
         });
         this.list = [...savedList];
+        this.outputText();
     }
 }
+
+$('body').on('click', '[data-node]', function () {
+    var currentNode = $(this).data('node');
+
+    var nextNode = $('[data-node="'+(currentNode+1)+'"]');
+    if (nextNode.attr('class') != 'key') {
+
+    } else {
+        return;
+    }
+
+    var nextTruNode = true;
+    for (i = currentNode-1; i > 0; i--) {
+        var cur = $('[data-node="'+i+'"]');
+        console.log('Check: '+i+' / '+cur.attr('class'));
+        if  (cur.attr('class') == 'key' && nextTruNode) {
+            console.log(cur.text());
+            return;
+        } else if (cur.attr('class') == 'key') {
+            nextTruNode = true;
+        } else {
+            nextTruNode = false;
+        }
+    }
+});
+
+$('body').on('mouseenter', '[data-node]', function () {
+    var currentNode = $(this).data('node');
+    var nextNode = $('[data-node="'+(currentNode+1)+'"]');
+    if (nextNode.attr('class') != 'key') {
+        $(this).css('background', 'gray');
+        $(this).css('cursor', 'pointer');
+    }
+});
+
+$('body').on('mouseleave', '[data-node]', function () {
+    var currentNode = $(this).data('node');
+    var nextNode = $('[data-node="'+(currentNode+1)+'"]');
+    if (nextNode.attr('class') != 'key') {
+        $(this).removeAttr('style');
+    }
+});

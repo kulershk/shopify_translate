@@ -19,50 +19,64 @@
     <![endif]-->
 </head>
 <body>
-<div class="container pt-5">
-    <div class="card mb-2">
-        <h5 class="card-header">
-            Settings
-        </h5>
-        <div class="card-body">
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">DeepL Api key</span>
-                </div>
-                <input type="text" class="form-control deepl" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value="">
-            </div>
+<div class="row ml-2 mr-2">
+    <div class="col-6">
+        <div class="pt-5">
+            <div class="card">
+                <h5 class="card-header">
+                    Translates
+                    <button type="button" class="btn btn-primary btn-sm float-right ml-3" onclick="parsed.export();">Save</button>
+                    <label for="formFile" class="btn btn-primary btn-sm float-right ml-3">Load</label>
+                    <input class="form-control" style="display: none" type="file" id="formFile">
+                    <button type="button" class="btn btn-primary btn-sm float-right ml-3" onclick="translateAll();">Auto translate</button>
+                </h5>
+                <div class="card-body translate-content">
 
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
                 </div>
-                <input type="text" class="form-control globalname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-            </div>
-
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Translate to</span>
-                </div>
-                <select class="inputGroup-sizing-sm tlang">
-                    <option value="LV">LV</option>
-                    <option value="DE">DE</option>
-                    <option value="FR">FR</option>
-                </select>
             </div>
         </div>
     </div>
+    <div class="col-6 pt-5">
+        <div class="card mb-2">
+            <h5 class="card-header">
+                Settings
+            </h5>
+            <div class="card-body">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">DeepL Api key</span>
+                    </div>
+                    <input type="text" class="form-control deepl" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value="">
+                </div>
 
-    <div class="card">
-        <h5 class="card-header">
-            Translates
-            <button type="button" class="btn btn-primary btn-sm float-right ml-3" onclick="parsed.export();">Save</button>
-            <label for="formFile" class="btn btn-primary btn-sm float-right">
-                Load
-            </label>
-            <input class="form-control" style="display: none" type="file" id="formFile">
-        </h5>
-        <div class="card-body translate-content">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
+                    </div>
+                    <input type="text" class="form-control globalname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
 
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Translate to</span>
+                    </div>
+                    <select class="inputGroup-sizing-sm tlang">
+                        <option value="LV">LV</option>
+                        <option value="DE">DE</option>
+                        <option value="FR">FR</option>
+                        <option value="IT">IT</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <h5 class="card-header">
+                Output
+            </h5>
+            <div class="card-body p-0">
+                <pre class="output-json m-0 p-0"></pre>
+            </div>
         </div>
     </div>
 </div>
